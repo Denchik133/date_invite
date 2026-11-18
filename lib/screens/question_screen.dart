@@ -188,7 +188,7 @@ class _QuestionScreenState extends State<QuestionScreen>
                         borderRadius: BorderRadius.circular(30),
                         boxShadow: [
                           BoxShadow(
-                            color: const Color(0xFFE91E8C).withOpacity(0.4),
+                            color: const Color(0xFFE91E8C).withValues(alpha: 0.4),
                             blurRadius: 16,
                             offset: const Offset(0, 6),
                           ),

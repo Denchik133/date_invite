@@ -33,7 +33,7 @@ class RestaurantScreen extends StatelessWidget {
                   borderRadius: BorderRadius.circular(24),
                   boxShadow: [
                     BoxShadow(
-                      color: Colors.pink.withOpacity(0.15),
+                      color: Colors.pink.withValues(alpha: 0.15),
                       blurRadius: 24,
                       offset: const Offset(0, 8),
                     ),
@@ -142,7 +142,7 @@ class RestaurantScreen extends StatelessWidget {
                     boxShadow: [
                       BoxShadow(
                         color:
-                            const Color(0xFFE91E8C).withOpacity(0.4),
+                            const Color(0xFFE91E8C).withValues(alpha: 0.4),
                         blurRadius: 18,
                         offset: const Offset(0, 6),
                       ),

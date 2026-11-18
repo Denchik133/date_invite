@@ -64,7 +64,7 @@ class _BookingScreenState extends State<BookingScreen>
                   borderRadius: BorderRadius.circular(20),
                   boxShadow: [
                     BoxShadow(
-                      color: Colors.pink.withOpacity(0.15),
+                      color: Colors.pink.withValues(alpha: 0.15),
                       blurRadius: 20,
                       offset: const Offset(0, 6),
                     ),
@@ -149,7 +149,7 @@ class _BookingScreenState extends State<BookingScreen>
                         ? [
                             BoxShadow(
                               color: const Color(0xFFE91E8C)
-                                  .withOpacity(0.2),
+                                  .withValues(alpha: 0.2),
                               blurRadius: 16,
                               offset: const Offset(0, 4),
                             ),

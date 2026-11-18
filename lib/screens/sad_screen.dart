@@ -64,7 +64,7 @@ class SadScreen extends StatelessWidget {
                     border: Border.all(color: const Color(0xFFE91E8C)),
                     boxShadow: [
                       BoxShadow(
-                        color: Colors.pink.withOpacity(0.15),
+                        color: Colors.pink.withValues(alpha: 0.15),
                         blurRadius: 10,
                         offset: const Offset(0, 4),
                       ),

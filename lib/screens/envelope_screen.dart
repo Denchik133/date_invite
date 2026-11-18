@@ -118,7 +118,7 @@ class _EnvelopeScreenState extends State<EnvelopeScreen>
                                   borderRadius: BorderRadius.circular(4),
                                   boxShadow: [
                                     BoxShadow(
-                                      color: Colors.pink.withOpacity(0.2),
+                                      color: Colors.pink.withValues(alpha: 0.2),
                                       blurRadius: 8,
                                       offset: const Offset(0, -2),
                                     ),
@@ -150,7 +150,7 @@ class _EnvelopeScreenState extends State<EnvelopeScreen>
                               ),
                               boxShadow: [
                                 BoxShadow(
-                                  color: Colors.pink.withOpacity(0.3),
+                                  color: Colors.pink.withValues(alpha: 0.3),
                                   blurRadius: 20,
                                   offset: const Offset(0, 8),
                                 ),
@@ -232,10 +232,10 @@ class _EnvelopeScreenState extends State<EnvelopeScreen>
               child: Container(
                 padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
                 decoration: BoxDecoration(
-                  color: const Color(0xFFE91E8C).withOpacity(0.1),
+                  color: const Color(0xFFE91E8C).withValues(alpha: 0.1),
                   borderRadius: BorderRadius.circular(30),
                   border: Border.all(
-                    color: const Color(0xFFE91E8C).withOpacity(0.3),
+                    color: const Color(0xFFE91E8C).withValues(alpha: 0.3),
                   ),
                 ),
                 child: Text(
